@@ -1,0 +1,445 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", serif;
+}
+body {
+  background-color: 0xfff1faee;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.container {
+  max-width: 1500px;
+  margin: auto;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 1.5rem;
+  font-size: 1.5rem;
+}
+.navbar .company-name {
+  font-weight: 700;
+  cursor: pointer;
+}
+.navbar .nav-link a {
+  font-size: 1.5rem;
+  margin: 0 10px;
+  opacity: 0.1rem;
+}
+.navbar .nav-link a:hover {
+  opacity: 1rem;
+  text-shadow: 4px 4px 6px rgba(66, 68, 90, 1);
+}
+#profile {
+  margin-top: 70px;
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 980px;
+  /* max-height: 980px; */
+}
+#profile .avatar {
+  flex-grow: 1;
+  max-width: 50%;
+}
+#profile .information {
+  flex-grow: 1;
+  text-align: left;
+  padding-left: 50px;
+}
+#profile .avatar img {
+  width: 80%;
+  border-radius: 100%;
+  border: 3px solid gray;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+#profile .information button {
+  cursor: pointer;
+  padding: 15px 40px;
+  border: none;
+  background-color: yellow;
+  font-size: 1.5rem;
+  font-weight: 500;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+#profile .information h2 {
+  font-size: 2.5rem;
+}
+#profile .information h3 {
+  opacity: 60%;
+  margin-bottom: 30px;
+}
+.socail-media {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  color: pink;
+}
+.socail-media i {
+  color: rgb(58, 201, 174);
+}
+#footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.web {
+  background-color: blue;
+}
+.digital {
+  background-color: aquamarine;
+}
+.setec {
+  background-color: aquamarine;
+}
+.data {
+  display: flex;
+
+  gap: 30px;
+}
+
+.btn {
+  background-color: yellow;
+  padding: 5px 5px;
+  border-radius: 10px;
+  margin-top: 1.5rem;
+  color: white;
+  cursor: pointer;
+  width: 89px;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+  height: 40px;
+}
+.btn.b {
+  background-color: aqua;
+}
+.text {
+  margin-top: 20px;
+}
+.text p {
+  font-size: 20px;
+  color: rgb(46, 49, 52);
+}
+.course {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 70px;
+}
+.course .frontend {
+  margin-left: -40px;
+}
+#education {
+  justify-items: end;
+}
+.Enducation {
+  /* padding: 20px;
+  display: grid;
+  justify-content: space-between; */
+}
+.Enducation h3 {
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  text-wrap: wrap;
+  opacity: 0.6;
+  margin-left: 1200px;
+}
+.Enducation-text {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  padding: 50px 0px;
+  gap: 2rem;
+  margin-left: 250px;
+}
+.Enducation-text .text1 {
+  margin-left: auto;
+  text-align: right;
+}
+.Enducation-text h1 {
+  margin-left: auto;
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.Enducation-text p {
+  margin-top: 0.7rem;
+  font-style: italic;
+}
+.text2 .feb {
+  margin-top: 3rem;
+}
+.text2 .Apr {
+  margin-top: 3rem;
+}
+/* section-4 */
+.Experince h3 {
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  text-wrap: wrap;
+  opacity: 0.6;
+  margin-left: 100px;
+}
+.Experince-text {
+  display: grid;
+  grid-template-columns: 1fr 1.7fr;
+  gap: 2rem;
+  margin-top: 30px;
+  /* font-size: 1.3rem;
+  font-weight: 600; */
+}
+.Experince-text h1 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.experince-year {
+  text-align: right;
+}
+.Experince-General {
+  margin-right: 100px;
+}
+.Experince-General p {
+  margin-top: 0.7rem;
+  font-style: italic;
+}
+.Experince-General ul {
+  margin-top: 20px;
+}
+/* section-4 */
+/* map */
+.Container {
+  margin-left: 100px;
+}
+.Container h3 {
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  text-wrap: wrap;
+  opacity: 0.6;
+  /* justify-content: space-between; */
+}
+.Container .Info {
+  display: flex;
+  /* justify-content: space-between; */
+}
+#contact .message .form-group-50 {
+  display: flex;
+}
+#contact .message .form-group-50 .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  flex: 1;
+}
+#contact .message .form-group-100 .form-group {
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+#contact
+  .message
+  .form-group-50
+  .form-group
+  label
+  #contact
+  .message
+  .form-group-100
+  .form-group
+  label {
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+#contact .message .form-group-50 .form-group input,
+#contact .message .form-group-100 .form-group input,
+#contact .message .form-group-100 .form-group textarea {
+  width: 100%;
+}
+.Info .message,
+.Info .insert-map {
+  flex-grow: 1;
+  max-width: 50%;
+}
+#contact .message input,
+#contact .message textarea {
+  border: 1px solid rgb(87, 87, 87);
+  padding: 5px 10px;
+  border-radius: 7px;
+}
+#contact .message button {
+  padding: 10px 45px;
+  border: 1px;
+  cursor: pointer;
+  background: rgb(35, 119, 163);
+  border-radius: 7px;
+  font-size: 14px;
+  font-weight: 600;
+}
+#contact .message button:hover {
+  background-color: rgb(43, 115, 154);
+}
+footer {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+.Enducation {
+  /* padding: 20px;
+  display: grid;
+  justify-content: space-between; */
+}
+.Enducation h3 {
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  text-wrap: wrap;
+  opacity: 0.6;
+  margin-left: 1200px;
+}
+.Enducation-text {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  padding: 50px 0px;
+  gap: 2rem;
+  margin-left: 250px;
+}
+.Enducation-text .text1 {
+  margin-left: auto;
+  text-align: right;
+}
+.Enducation-text h1 {
+  margin-left: auto;
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.Enducation-text p {
+  margin-top: 0.7rem;
+  font-style: italic;
+}
+.text2 .feb {
+  margin-top: 3rem;
+}
+.text2 .Apr {
+  margin-top: 3rem;
+}
+/* section-4 */
+.Experince h3 {
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  text-wrap: wrap;
+  opacity: 0.6;
+  margin-left: 100px;
+}
+.Experince-text {
+  display: grid;
+  grid-template-columns: 1fr 1.7fr;
+  gap: 2rem;
+  margin-top: 30px;
+  /* font-size: 1.3rem;
+  font-weight: 600; */
+}
+.Experince-text h1 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.experince-year {
+  text-align: right;
+}
+.Experince-General {
+  margin-right: 100px;
+}
+.Experince-General p {
+  margin-top: 0.7rem;
+  font-style: italic;
+}
+.Experince-General ul {
+  margin-top: 20px;
+}
+/* section-4 */
+/* map */
+.Container {
+  margin-left: 100px;
+}
+.Container h3 {
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  text-wrap: wrap;
+  opacity: 0.6;
+  /* justify-content: space-between; */
+}
+.Container .Info {
+  display: flex;
+  /* justify-content: space-between; */
+}
+#contact .message .form-group-50 {
+  display: flex;
+}
+#contact .message .form-group-50 .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  flex: 1;
+}
+#contact .message .form-group-100 .form-group {
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+#contact
+  .message
+  .form-group-50
+  .form-group
+  label
+  #contact
+  .message
+  .form-group-100
+  .form-group
+  label {
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+#contact .message .form-group-50 .form-group input,
+#contact .message .form-group-100 .form-group input,
+#contact .message .form-group-100 .form-group textarea {
+  width: 100%;
+}
+.Info .message,
+.Info .insert-map {
+  flex-grow: 1;
+  max-width: 50%;
+}
+#contact .message input,
+#contact .message textarea {
+  border: 1px solid rgb(87, 87, 87);
+  padding: 5px 10px;
+  border-radius: 7px;
+}
+#contact .message button {
+  padding: 10px 45px;
+  border: 1px;
+  cursor: pointer;
+  background: rgb(35, 119, 163);
+  border-radius: 7px;
+  font-size: 14px;
+  font-weight: 600;
+}
+#contact .message button:hover {
+  background-color: rgb(43, 115, 154);
+}
+footer {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
